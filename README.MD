@@ -1,0 +1,1 @@
+A Coffee application I came up with in JavaScript
