@@ -1,0 +1,40 @@
+<!DOCtype html>
+<html>
+<body>
+<script>
+function orderLatte(){
+   let espresso;
+   let milk;
+   let syrup;
+   let latte = espresso + milk + syrup;
+   return latte;
+}
+function orderCoffee(){
+   let coffee;
+   let creamer;
+   let sugar;
+   let coffee = coffee + creamer + sugar;
+   return coffee;
+}  
+function icedBeverage(orderLatte, orderCoffee){
+   let icedLatteBeverage = orderLatte + ice;
+   return icedLatteBeverage;
+   let icedCoffeeBeverage = orderCoffee + ice;
+   return icedCoffeeBeverage;
+}
+function decaf(orderLatte, orderCoffee, icedBeverage){
+   let caffeine;
+   let decafLatte = orderLatte - caffeine;
+   return decafLatte;
+   let decafCoffee = orderCoffee - caffeine;
+   return decafCoffee;
+   let decafIcedLatteBeverage = icedLatteBeverage - caffeine;
+   return decafIcedLatteBeverage;
+   let decafIcedCoffeeBeverage = icedCoffeeBeverage - caffeine; 
+   return decafIcedCoffeeBeverage;
+}
+orderCoffee();
+orderLatte();
+</script>
+</body>
+</html>
